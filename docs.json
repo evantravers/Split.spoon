@@ -1,0 +1,79 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "UNKNOWN DESC",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "",
+    "Method" : [
+      {
+        "doc" : "Presents an hs.chooser to pick a window to split your monitor with",
+        "stripped_doc" : [
+          "Presents an hs.chooser to pick a window to split your monitor with"
+        ],
+        "parameters" : [
+
+        ],
+        "def" : "Split:split() -> table",
+        "notes" : [
+
+        ],
+        "signature" : "Split:split() -> table",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "split",
+        "desc" : "Presents an hs.chooser to pick a window to split your monitor with"
+      }
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+      {
+        "doc" : "Presents an hs.chooser to pick a window to split your monitor with",
+        "stripped_doc" : [
+          "Presents an hs.chooser to pick a window to split your monitor with"
+        ],
+        "parameters" : [
+
+        ],
+        "def" : "Split:split() -> table",
+        "notes" : [
+
+        ],
+        "signature" : "Split:split() -> table",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "name" : "split",
+        "desc" : "Presents an hs.chooser to pick a window to split your monitor with"
+      }
+    ],
+    "Command" : [
+
+    ],
+    "name" : "Split"
+  }
+]
