@@ -1,6 +1,12 @@
 --- === Split ===
 
-local m = {}
+local m = {
+  name = "Split",
+  version = "1.0",
+  author = "Evan Travers <evantravers@gmail.com>",
+  license = "MIT <https://opensource.org/licenses/MIT>",
+  homepage = "https://github.com/evantravers/split.spoon",
+}
 
 --- Split:split() -> table
 --- Method
