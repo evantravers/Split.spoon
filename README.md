@@ -1,5 +1,12 @@
 # Split.spoon
 
+Example:
+```lua
+hs.loadSpoon('Split')
+
+hs.hotkey.bind({"cmd", "alt"}, "s", function() spoon.Split.split() end)
+```
+
 I work on a laptop monitor a lot, and even at my nice setup at my desk I try to keep my main monitor on a single app. One app, one task, single focus.
 
 There is one use case where I'll commonly have two windows open… one to work on, the other for reference. Sometimes it's [Dash.app](https://kapeli.com/dash), some other reference material, or a ticket.
