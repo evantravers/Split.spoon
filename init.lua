@@ -2,7 +2,7 @@
 
 local m = {
   name = "Split",
-  version = "1.0",
+  version = "1.1",
   author = "Evan Travers <evantravers@gmail.com>",
   license = "MIT <https://opensource.org/licenses/MIT>",
   homepage = "https://github.com/evantravers/split.spoon",
@@ -14,12 +14,17 @@ local m = {
 m.split = function()
   local windows = hs.fnutils.map(hs.window.orderedWindows(), function(win)
     if win ~= hs.window.focusedWindow() then
-      return {
+      local option = {
         text = win:title(),
         subText = win:application():title(),
-        image = hs.image.imageFromAppBundle(win:application():bundleID()),
         id = win:id()
       }
+
+      if win:application():bundleID() then
+        option["image"] = hs.image.imageFromAppBundle(win:application():bundleID())
+      end
+
+      return option
     end
   end)
 
